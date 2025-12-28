@@ -1,6 +1,6 @@
 ## Project: Reverse Polish Notation
 
-## Course: Machine and Assembly Language Programming (Spring '25)
+## Course: Machine Structure and Assembly Language Programming (Spring '25)
 
 ## Partner: Olivia Ribeiro
 
