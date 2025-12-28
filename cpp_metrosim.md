@@ -1,8 +1,8 @@
-## Project: Array List ADT
+## Project: MetroSim
 
 ## Course: Data Structures (Spring '24)
 
-### Program Purpose:
+## Program Purpose:
     The purpose of this program is to simulation a metro system. Clients can
     add passengers to the simulation at any point, and they will start out at 
     their arriving station. Clients can also move the metro along to their next 
@@ -10,14 +10,14 @@
     accordingly. When the client is finished or the given command file ends, 
     the simulation ends.
 
-### Compile/run:
+## Compile/run:
      - Compile using
             make MetroSim
      - run executable with
             ./MetroSim stationsFile passFile [commands]
 
 
-### Acknowledgements: 
+## Acknowledgements: 
     std::vector and std::list documentation on 
         cppreference.com
     std::list examples from guru99.com
@@ -25,56 +25,56 @@
     Willa Andandre for emotional support.
 
 
-### Files: 
+## Files: 
 
-#### main.cpp:
+### main.cpp:
      Creates MetroSim object and runs the
      simulation
 
-#### MetroSim.cpp:
+### MetroSim.cpp:
      Runs the query loop for MetroSim and prints out 
      simulation after each command
 
-#### MetroSim.h:
+### MetroSim.h:
      Function and member declarations for MetroSim.cpp
 
-#### stations.txt:
+### stations.txt:
      an example file containing a list of stations.
 
-#### test_commands.txt:
+### test_commands.txt:
      sample list of commands that you could give to the 
      simulator
 
-#### the_metroSim:
+### the_metroSim:
      reference implementation for students to see how 
 
-#### PassengerQueue.cpp: 
+### PassengerQueue.cpp: 
      Represents queue of passengers at a station or in a 
      train car. Also provides functions to deal with 
      passengers in the queue. 
 
-#### PassengerQueue.h:
+### PassengerQueue.h:
      Function and member declarations for 
      PassengerQueue.cpp
 
-#### Passenger.cpp:
+### Passenger.cpp:
      Represents a single passenger in the simulation. 
 
-#### Passenger.h:
+### Passenger.h:
      Function and member declarations for Passenger.cpp
 
-#### unit_tests.h
+### unit_tests.h
      Contains tests for functions in PassengerQueue.cpp
      and Passenger.cpp
       
-#### test_commands.txt:
+### test_commands.txt:
     given testing input file
 
-#### input(1-4).txt:
+### input(1-4).txt:
      4 different command files for testing MetroSim. When testing with
      these inputs i created different output and diff files.
 
-#### LIST OF INPUT FILES (number representations)
+### LIST OF INPUT FILES (number representations)
      1: Adds 5 passengers to 3 diff stations(3 diff dep 
      stations too) then pick all 15 up and drop them off
 
@@ -89,7 +89,7 @@
         #
      5: abrupt stop. No m f but code stops one reached the end of the file
 
-### Data Structures: 
+## Data Structures: 
 
     I used a queue ADT to represent the passenger queue, which is used for each
     station and train car. I decided on this ADT because it follows the first in 
@@ -148,7 +148,7 @@
 
 
 
-### Testing:
+## Testing:
 
     I did all of my phase 1 testing using unit_test.h. For my Passenger class, I
     tested the print function after creating a single pasenger to make sure it
@@ -194,7 +194,7 @@
     end with m f then it would get caught in an infinite loop. I "cat"-ed my diff 
     files to see what was going on which really helped with debugging.
 
-### Part that you found most difficult: 
+## Part that you found most difficult: 
     The part that I found to be the most difficult was learning how to use
     std::vector and std::list because we didn't really go over it in class so I
     had to rely on online resources to learn. I also found moving the Metro
@@ -202,5 +202,5 @@
     stations list, boarding passengers, and departing passengers, which is a lot
     compared to the other query commands.
 
-### Time Spent: 
+## Time Spent: 
     About 15 hours
