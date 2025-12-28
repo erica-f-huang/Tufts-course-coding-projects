@@ -1,7 +1,7 @@
 ## Project: Arith
 Perform lossy compression on a .ppm image and decompression on a .ppm image
 
-## Course: Machine Structure and Assembly Language Programming
+## Course: Machine Structure and Assembly Language Programming (Spring '25)
 
  **DEFINITION NOTE: Uarray2 is a 2d unboxed array. DCT is Discrete Cosine Transform, which uses varaibles Y, Pb, and Pr.**
 
