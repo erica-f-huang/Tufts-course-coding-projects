@@ -1,4 +1,5 @@
 ## Project: Reverse Polish Notation
+    Implements a Reverse Polish Notation calculator
 
 ## Course: Machine Structure and Assembly Language Programming (Spring '25)
 
