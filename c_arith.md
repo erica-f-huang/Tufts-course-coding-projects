@@ -1,4 +1,6 @@
 ## Project: Arith
+Perform lossy compression on a .ppm image and decompression on a .ppm image
+
 ## Course: Machine Structure and Assembly Language Programming
 
  **DEFINITION NOTE: Uarray2 is a 2d unboxed array. DCT is Discrete Cosine Transform, which uses varaibles Y, Pb, and Pr.**
@@ -10,26 +12,29 @@
     a2blocked, and a2plain files as well as the Course coding standards
     to assist with style. 
 
-## Implementation:
-
-    Note: we believe everything is implemented correctly
+## Implementation (files):
+Note: we believe everything is implemented correctly
     
-    - Compression: Reads a PPM image, trims it to even dimensions, converts RGB 
-      to YPbPr, applies DCT, and stores compressed words in a 32-bit format
+### Compression: 
+        Reads a PPM image, trims it to even dimensions, converts RGB 
+          to YPbPr, applies DCT, and stores compressed words in a 32-bit format
     
-    - Decompression: Reads compressed words, extracts pixel data, reverses DCT, 
-      converts YPbPr back to RGB, and reconstructs the original image
+### Decompression: 
+        Reads compressed words, extracts pixel data, reverses DCT, 
+          converts YPbPr back to RGB, and reconstructs the original image
     
-    - BitPacking: Implements all 6 bitpacking functions including, Bitpack_newu() 
+### BitPacking: 
+        Implements all 6 bitpacking functions including, Bitpack_newu() 
       and Bitpack_news() to store compressed values, Bitpack_getu() and 
       Bitpack_gets() to extract them, and Bitpack_fitu() and Bitpack_fits() o 
       verify if values fit within the specified bit width. We also created 4 
       helper functions: shift_left(), shift_rightu(), shift_rights(), and mask(). 
     
-    - File I/O: Reads and writes binary data for a compressed or decompressed image
+### File I/O: 
+        Reads and writes binary data for a compressed or decompressed image
      
-    - Testing: Checked accuracy of our program by using ppmdiff.c and incrementally 
-               testing each step of our implementation thuroughly before moving on
+### Testing: 
+        Checked accuracy of our program by using ppmdiff.c and incrementally testing each step of our implementation thuroughly before moving on
 
 ## Architecture:
 ### compression steps:
