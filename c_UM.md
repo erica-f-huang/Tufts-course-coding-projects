@@ -1,7 +1,7 @@
 ## Project: UM emulator
 Program for a UM emulator
 
-## Class: Machine Structure and Assembly Lanugage Programming
+## Class: Machine Structure and Assembly Language Programming (Spring '25)
 Partner: Rindha Reddy
 
 ## Implementation Completeness 
