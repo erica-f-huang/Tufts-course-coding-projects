@@ -11,9 +11,6 @@ Descriptions of all coding projects I've completed at Tufts University. \
 
 [UM (C)](c_UM.md)
 
-**UM Projects**\
-[ReversePolishNotation (um)](um_reversepolishnotation.md)
-
 **C++ Projects**\
 [ArrayLists (C++)](cpp_arralists.md)
 
@@ -25,3 +22,6 @@ Descriptions of all coding projects I've completed at Tufts University. \
 
 **Java Projects**\
 [Chess (Java)](java_chess.md)
+
+**UM Projects**\
+[ReversePolishNotation (um)](um_reversepolishnotation.md)
